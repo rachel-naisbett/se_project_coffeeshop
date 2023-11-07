@@ -23,12 +23,12 @@
   z-index: -2;
 }
 
-.nav__logo {
+.nav {
   display: flex;
   justify-content: space-between;
 }
 
-.nav__links {
+.nav__link {
   display: flex;
   margin: 0;
   padding: 0;
@@ -41,12 +41,12 @@
   line-height: 20px;
 }
 
-.nav__links_item {
+.nav__link_item {
   color: black;
   text-decoration: none;
 }
 
-.logo {
+.nav__logo {
   position: relative;
   left: -50px;
   width: 105px;
@@ -139,7 +139,7 @@ line-height: 30px;
   display: block;
 }
 
-.recipes__video {
+.recipes__videos {
   display: flex;
   gap: 40px;
   justify-content: center;
