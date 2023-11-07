@@ -149,7 +149,6 @@ line-height: 30px;
 .recipes__iframe {
   width: 480px;
   height: 273px;
-  frameborder: 0;
 }
 
 .recipes__video-caption {
