@@ -52,7 +52,53 @@
         <p class="recipes__video-caption"><span>French press recipe</span> ~15min</p></div>
       </div>
     </section>
-    <section class="reservations" id="reservations"></section>
+    <section class="reservations" id="reservations">
+      <h2 class="reservations__title">Book a Table</h2>
+      <div class="reservation__form">
+      <fieldset class="form__fieldset">
+       <label for="surname" class="form__label">Name *</label>
+       <input
+             type="text"
+             class="form__input"
+             placeholder="   Name Surname"
+             id="surname"
+             name="username"
+             >
+        <label for="guests" class="form__label">Number of Guests *</label>
+        <input
+          type="number"
+          min="1"
+          max="8"
+          class="form__input"
+          placeholder="   1-8"
+          id="guests"
+          >
+        <label for="date" class="form__label">Date and Time *</label>
+        <input
+          type="date"
+          class="form__input"
+          id="date"
+          >
+        <label for="email" class="form__label">Your email *</label>
+        <input
+          type="email"
+          class="form__input"
+          placeholder="   email@email.com"
+          id="email"
+          >
+      </fieldset>
+      <button class="form__button">Book a Table</button>
+
+      <label for="checkbox" class="form__label">
+        <input
+          type="checkbox"
+          class="form__checkbox"
+          id="checkbox"
+          >
+      I agree with the terms of use</label>
+
+      </div>
+    </section>
     <section class="menu" id="menu"></section>
     <section class="about" id="about"></section>
   </main>
