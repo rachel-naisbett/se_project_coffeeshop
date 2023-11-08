@@ -177,7 +177,7 @@ line-height: 30px;
   align-items: center;
 }
 
-.reservations__title {
+.reservation__title {
   margin-top: 100px;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
@@ -186,7 +186,7 @@ line-height: 30px;
 
 }
 
-.reservations__form {
+.reservation__form {
   display: flex;
   flex-direction: column;
   margin-bottom: 120px;
