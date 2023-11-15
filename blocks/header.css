@@ -13,6 +13,7 @@
   background-repeat: no-repeat;
   background-position: center;
   z-index: 0;
+  box-sizing: border-box;
 }
 
 .header__title {
