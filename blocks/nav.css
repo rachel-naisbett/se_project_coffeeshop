@@ -17,12 +17,12 @@
 }
 
 
-.nav__link_item {
+.nav__link {
   color: black;
   text-decoration: none;
 }
 
-.nav__link_item:hover {
+.nav__link:hover {
   color: #2F80ED;
   transition-timing-function: ease-in;
   transition-duration: 0.25s;
