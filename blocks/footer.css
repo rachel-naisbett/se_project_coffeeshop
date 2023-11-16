@@ -16,6 +16,10 @@
   align-self: flex-start;
 }
 
+.footer__list {
+  padding: 0;
+}
+
 .footer__social-heading  {
   color: white;
   margin-bottom: 20px;

@@ -15,7 +15,7 @@
 
 .form__input {
   border-radius: 4px;
-  max-width: 385px;
+  width: 385px;
   height: 60px;
   margin: 8px 0 32px;
   font-family: "Inter", "Arial", sans-serif;

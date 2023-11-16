@@ -3,6 +3,7 @@
   width: 540px;
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 .card__title {
@@ -30,7 +31,6 @@
 
 .card__list-divider {
   display: flex;
-  border-bottom-style: solid;
+  border-bottom: 1px solid black;
   flex-grow: 2;
-  width: 540px;
 }
