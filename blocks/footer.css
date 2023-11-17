@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   display: flex;
   flex-direction: column;
 }
@@ -21,7 +21,13 @@
   margin: 0;
 }
 
-.footer__social-heading  {
+.footer__social-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer__social-heading {
   color: white;
   margin-bottom: 20px;
   font-family: "Inter", Arial, sans-serif;
@@ -49,7 +55,7 @@
 }
 
 .footer__social-link:hover {
-  color: #C1C1C1;
+  color: #c1c1c1;
   transition-timing-function: ease-in;
   transition-duration: 0.25s;
 }
