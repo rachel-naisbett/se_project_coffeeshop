@@ -14,7 +14,7 @@
 }
 
 .form__input {
-  border-radius: 1px;
+  border-radius: 4px;
   width: 385px;
   height: 60px;
   margin: 8px 0 32px;
@@ -23,6 +23,8 @@
   line-height: 30px;
   box-sizing: border-box;
   border-color: #838383;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .form__input::placeholder {
